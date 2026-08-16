@@ -78,7 +78,7 @@ the router detects intent. Full registry in `CLAUDE.md`.
   state system, calibration engine, drill progression ladder, command
   architecture, rubric anchors. MIT licensed; original license preserved in
   `LICENSE`.
-- **Mahesh Yadav (Agentic AI Institute)**: the hiring-manager evaluation
+- **Mahesh Yadav (Agentic AI Institute)**: https://maven.com/mahesh-yadav the hiring-manager evaluation
   checklist this repo's coverage lens adapts, the bulk of the AI PM interview
   questions and case scenarios in the question bank, and the interview
   bootcamp structure that shaped the prep philosophy. Questions are compiled

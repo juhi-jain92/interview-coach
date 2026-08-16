@@ -49,15 +49,10 @@ the router detects intent. Full registry in `CLAUDE.md`.
    seven-point diagnostic applied to every spoken answer (length and the
    three-sentence rule, intended bullets landed, keyword match, impact
    position, junior-signal tells, number attribution under pressure,
-   survivability across three follow-ups). Carried over from the author's own
-   interview-prep skill; it explains WHY a dimension scored low.
-6. **Real-person interviewer dossiers**: mocks and drills play the actual
-   people in the loop, researched with evidence-labeled claims and each
-   person's "secret question," falling back to generic archetypes only when
-   no dossier exists. Also from the author's prep skill.
-7. **Spoken-answer-first judging**: answers are dictated and judged as speech,
+   survivability across three follow-ups).
+6. **Spoken-answer-first judging**: answers are dictated and judged as speech,
    never as writing. Three load-bearing sentences, then stop.
-8. **Compiled AI PM question bank and answer frames**: a tagged bank of
+7. **Compiled AI PM question bank and answer frames**: a tagged bank of
    interview questions and case scenarios gathered from multiple sources
    (see Credits), organized by the dimension each one tests and paired with
    expected answer scaffolds (story structure, trust framework, RAG vs
@@ -65,10 +60,10 @@ the router detects intent. Full registry in `CLAUDE.md`.
    grades coverage against. The contribution here is the tagging, dimension
    mapping, and integration into the two-lens rubric, not the source
    questions themselves.
-9. **Locked-profile pattern**: all factual claims trace to a single local
+8. **Locked-profile pattern**: all factual claims trace to a single local
    profile file with explicit accuracy flags (what the candidate can and
    cannot claim), so prep material can never train overclaiming.
-10. **Public/private split**: the gitignored local layer keeps all personal
+9. **Public/private split**: the gitignored local layer keeps all personal
    data (profile, stories, scores, weakness log) off GitHub, making the
    framework shareable as a portfolio piece without exposing the job seeker.
 

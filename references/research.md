@@ -82,6 +82,35 @@ Use the Role-Fit Assessment Module from `references/cross-cutting.md`. Without a
 
 **Candidate Market Fit**: Beyond the 5-dimension assessment, consider what Phyl Terry calls "candidate market fit" (via Lenny's Podcast) — does the candidate's positioning resonate with this company's specific needs? A candidate can be a "Strong Fit" on role dimensions but have weak candidate market fit if their positioning doesn't address the company's current pain points. Terry's principle: "You need a spear and not a net." If the candidate is applying broadly without a clear positioning thesis, the fit assessment should flag this as a strategic issue — not a role mismatch, but a targeting mismatch. See `outreach.md` for the full candidate market fit framework.
 
+### Story-to-Problem Mapping (where you fit)
+
+Fit Assessment answers "should you apply." This answers "why should they hire
+you" — the pitch, not the verdict. Run it whenever a storybank exists
+(`local/story-bank.md`); skip with a flag if it doesn't yet.
+
+1. **Name their problems, not their values.** From the research already
+   gathered (careers page, product/eng blog, recent news, JD if available),
+   extract 2-3 concrete business or product problems this company is
+   actually working — not generic values. "They value innovation" is not a
+   problem. "They're trying to cut support cost per ticket while AI handles
+   more Tier-1 volume" is. Source each per the Claim Verification Protocol
+   above — Tier 3 problems get named as inferred, not asserted.
+2. **Pull 2-3 matching stories from `local/story-bank.md`.** Match on
+   Primary/Secondary Skill and Domain, not surface similarity — a story
+   about scaling evals matters to a company worried about hallucination risk
+   even if the industries differ. Prefer stories not yet logged as
+   overused (Use Count) or already used at this company (Interview Loops).
+3. **Translate each story's Impact into their KPI language**, not yours. If
+   the story's result is "18% churn reduction," and their problem is
+   retention, say retention. If their problem is margin, reframe the same
+   result as cost avoided or efficiency gained. Same story, different
+   emphasis depending on which problem it's answering — do not force one
+   fixed framing across every company.
+4. **Never let this drift past what profile.md allows.** If a strong-looking
+   pairing requires implying scale, ownership, or results beyond the
+   verified numbers, flag it as GAP-RISK and route through the Gap-Handling
+   Module (`references/cross-cutting.md`) instead of forcing the pairing.
+
 ### Output Schema
 
 ```markdown
@@ -109,6 +138,15 @@ Use the Role-Fit Assessment Module from `references/cross-cutting.md`. Without a
 - Cannot assess without JD: Requirement Coverage, Competency Overlap
 - Key gaps (if stretch/weak): [specific gaps, not vague]
 - Better-fit alternatives (if weak/long-shot): [what roles would be stronger matches and why]
+
+## Where You Fit
+- Their problem 1: [specific, sourced — Tier 1/2/3]
+  - Your story: [S### from local/story-bank.md]
+  - Why it's relevant: [1-2 lines]
+  - Their KPI framing: [same result, stated in their business terms]
+- Their problem 2: [repeat]
+- Their problem 3 (optional): [repeat]
+- (If no storybank exists: "Can't map stories yet — run `stories` first. Here's what they seem to need instead: [problems only].")
 
 ## If You Decide to Apply
 - Recommended next steps:

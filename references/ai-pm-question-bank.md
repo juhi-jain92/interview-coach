@@ -69,8 +69,36 @@ the bracketed company with the actual target when known.
 
 43. Tell me about a time you helped engineering fail fast and ship faster.
 44. What would you do if a competitor copied our product at lower cost?
-(Full behavioral coverage comes from local/story-bank.md mapping; these two
-came tagged from the cohort. Growth-mindset rubric applies.)
+(These two came tagged from the cohort. Growth-mindset rubric applies.)
+
+Core behavioral themes below cover: collaboration, influence without
+authority, overcoming obstacles, mediating conflict, and learning from
+failure. Full coverage comes from `local/story-bank.md` mapping — these
+prompts are the retrieval trigger, not a script.
+
+**Collaboration**
+59. Tell me about a time you had to build a product with a team you didn't manage. How did you get alignment?
+60. Walk me through a time engineering and design disagreed on an approach. How did you get to a decision?
+
+**Influence without authority**
+61. Tell me about a time you had to get a team to prioritize your initiative without having direct authority over them.
+62. Describe a time a senior stakeholder disagreed with your product direction. How did you change their mind, if you did?
+
+**Overcoming obstacles**
+63. Tell me about the hardest constraint you've shipped under (headcount, timeline, technical debt, budget). What did you cut and why?
+64. Walk me through a project that looked dead partway through. What did you do to save it, or how did you decide to kill it?
+
+**Mediating conflict**
+65. Tell me about a time two stakeholders wanted opposite things from the same roadmap slot. How did you resolve it?
+66. Describe a conflict on your team that you had to step into, even though it wasn't yours to fix.
+
+**Learning from failure**
+67. Tell me about your biggest product flop. What happened, and what did you do about it?
+68. Describe a decision you'd make differently today. What did you learn, and where has that shown up since?
+
+**Agent-era people management [AI]**
+69. AI agents change what a PM manages day to day. How would you manage a team of 10 AI agents working in parallel — what's different from managing people, and what stays the same? Map to `local/story-bank.md`'s HITL/responsible-autonomy story (tagged "manage 10 agents" scaffolding).
+70. As PMs start directing more agents than people, is "agent manager" a real shift in the role, or a rebrand of orchestration work you already did? Defend your answer.
 
 ## Case scenarios [CASE]
 

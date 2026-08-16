@@ -1,0 +1,7 @@
+# Personal layer: never leaves this machine
+local/
+coaching-state.md
+interview-limitations.md
+# OS noise
+.DS_Store
+references/hm-panel-checklist.md

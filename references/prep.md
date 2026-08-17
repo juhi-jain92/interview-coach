@@ -49,6 +49,18 @@ here and in `references/research.md` only — neither wrapper restates it.
    "Where You Fit" output) using the Step 4 pool: name 2-3 of the company's
    real problems, pair each with a story, and restate that story's impact in
    the company's KPI language, not generic terms.
+6. **Persist to the running doc.** Write or update
+   `local/companies/[company-slug].md` (lowercase-hyphenated company name;
+   create it from `references/company-doc-template.md` if it doesn't exist yet).
+   Populate/update the Header, Company Research, JD Keyword Map, The 5
+   Mapped Stories, and Where You Fit sections from Steps 1-5 above. Never
+   overwrite a populated section silently — if research or the JD changed
+   materially since the last run, append a dated note under that section
+   instead of erasing what was there. This step runs whether the Shared Core
+   was invoked by `recruiter prep` or `hm` — chat output is ephemeral, this
+   file is the persistent record. The remaining template sections (Prep
+   Answers by Round, Round Log) are filled by each round-specific wrapper
+   and by `debrief`, not by this step.
 
 ### hm/full-loop round-specific depth
 

@@ -119,3 +119,18 @@ Update `coaching_state.md` per the State Update Triggers in SKILL.md:
 - Interview Loop updates: round completed, stories used, signals noted
 - Outcome Log: add entry with Result: pending
 - Interview Intelligence updates: recalled questions to Question Bank (marked "recall-only"), recruiter/interviewer feedback to Recruiter/Interviewer Feedback table, Company Patterns if new observations emerged
+
+Also append a row to the Round Log table in `local/companies/[company-slug].md`
+(create it from `references/company-doc-template.md` first if no prep has
+run yet for this company). Map this debrief's output to the row:
+- **Round**: the round name/number this debrief covers
+- **Date**: today
+- **Questions asked**: from Questions Recalled
+- **How it went**: synthesized from the emotional read, per-question
+  self-assessments, and interviewer signals observed
+- **What to fix next round**: from Candidate's Own Takeaways → what to do
+  differently
+
+This is in addition to, not instead of, the `coaching_state.md` updates
+above — the company doc is the per-company narrative, `coaching_state.md`
+is the cross-company score history.

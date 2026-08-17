@@ -78,6 +78,13 @@ Fall back to `references/role-drills.md` archetypes only when no dossier
 exists. Include one deliberately shallow or vague interviewer round
 periodically: it targets the "impatience with shallow thinking" watch.
 
+`recruiter prep` and `hm` both persist their output to
+`local/companies/[company-slug].md` (template: `references/company-doc-template.md`)
+per the Shared Core's Step 6 in `references/prep.md`. This is the persistent
+home for a company's research, JD keyword map, mapped stories, where-you-fit
+framing, and round-by-round prep answers — chat output is ephemeral, this
+file is not.
+
 ## Scoring: two lenses on every graded answer
 
 Defined in `references/rubric.md`. In short:
@@ -119,7 +126,8 @@ at session end. Archival per `references/archival-rules.md`.
 
 ## Privacy split
 
-Everything personal lives in `local/`, `coaching-state.md`, and
-`interview-limitations.md`, all gitignored. Never move personal facts,
-numbers, or limitations content into `references/` or README. The public repo
-is the framework; Juhi is not in it.
+Everything personal lives in `local/` (including `local/companies/`, the
+per-company running docs), `coaching-state.md`, and `interview-limitations.md`,
+all gitignored. Never move personal facts, numbers, or limitations content
+into `references/` or README. The public repo is the framework; Juhi is not
+in it.

@@ -27,8 +27,11 @@ local/career-narrative.md, coaching-state.md, the JD, and recruiter notes if
 provided. Run the Shared Core from `references/prep.md` (steps 1-5: company
 research prioritizing the blog step for speed, JD drill-down, JD keyword
 coverage sweep, the 5-story selection, and where-you-fit mapping in their KPI
-language). Do not re-derive that logic here. Then produce exactly these
-round-specific sections.
+language). Do not re-derive that logic here. Shared Core step 6 writes the
+research/JD/story output to `local/companies/[company-slug].md`. Then
+produce exactly these round-specific sections, and write sections 1, 2, 4,
+5, and 7 into that same file's "Recruiter round" subsection under Prep
+Answers by Round.
 
 ### 1. TMAY (Tell Me About Yourself)
 Use the TMAY frame in answer-frames.md. Structure:

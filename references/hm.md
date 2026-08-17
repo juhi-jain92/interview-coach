@@ -7,10 +7,16 @@ researched personas instead of generic archetypes.
 
 Run the Shared Core from `references/prep.md` (steps 1-5: company research,
 JD drill-down, JD keyword coverage sweep, the 5-story selection, and
-where-you-fit mapping). Then run the rest of `references/prep.md` as-is for
-round-specific depth — it already contains everything this round needs. Do
-not re-derive company research or JD logic here; `references/prep.md` and
-`references/research.md` are the single source for both.
+where-you-fit mapping; step 6 writes that output to
+`local/companies/[company-slug].md`). Then run the rest of
+`references/prep.md` as-is for round-specific depth — it already contains
+everything this round needs. Do not re-derive company research or JD logic
+here; `references/prep.md` and `references/research.md` are the single
+source for both.
+
+Write the full STAR+ story mapping, concerns-and-counters, and dossier notes
+into the same company file's "HM / full-loop round" subsection under Prep
+Answers by Round, replacing the "empty until then" placeholder.
 
 ## Where each round-specific part lives
 

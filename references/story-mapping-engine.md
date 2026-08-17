@@ -147,13 +147,13 @@ Use this schema in `prep` output to replace the current simple story mapping:
 - When calibration shows Differentiation predicts advancement, upgrade earned-secret-aware selection from conditional to default.
 - When calibration links a specific dimension to rejections, elevate story mapping gaps in that dimension's competencies to "Calibration-Urgent" priority.
 
-### With Prep (references/commands/prep.md)
+### With Prep (references/prep.md)
 - Prep Step 7 runs a storybank health check before mapping.
 - Prep Step 8 invokes this engine for the full mapping protocol.
 
-### With Stories (references/commands/stories.md)
+### With Stories (references/stories.md)
 - Gap analysis in `stories find gaps` uses the fit scoring system to classify gaps.
 - Secondary skills are checked for coverage before declaring a competency a true gap.
 
-### With Progress (references/commands/progress.md)
+### With Progress (references/progress.md)
 - Storybank health metrics include overuse tracking and freshness risk.

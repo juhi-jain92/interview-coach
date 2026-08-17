@@ -17,7 +17,7 @@ Before running the standard transcript analysis below, scan for compensation-dis
 
 **Detection logic.** Count occurrences of these markers (case-insensitive): `salary`, `base`, `equity`, `bonus`, `offer`, `package`, `counter`, `negotiate`, `compensation`, `vesting`, `sign-on`, `stock`, `RSU`, `pro-rate`, `band`, `range`, `budget`.
 
-- **3+ distinct markers** → route to negotiation-specific analysis: score against the 5 Negotiation Performance Dimensions in `references/commands/negotiate.md` ("Comp Call Scoring"), not the standard interview rubric. Output the Negotiation Performance Scorecard. Write results to the `Comp Strategy` section of `coaching_state.md` (not Score History — comp calls aren't interviews).
+- **3+ distinct markers** → route to negotiation-specific analysis: score against the 5 Negotiation Performance Dimensions and Comp Call Scoring defined by the `negotiate` command (job-strategy skill — not part of this repo), not the standard interview rubric. Output the Negotiation Performance Scorecard. Write results to the `Comp Strategy` section of `coaching_state.md` (not Score History — comp calls aren't interviews).
 - **Fewer than 3 markers** → proceed with the standard Step Sequence below.
 
 **Why this matters.** In a comp call, success is the package outcome, not answer quality; the counterpart is a negotiator, not an evaluator; and silence, timing, and information control matter more than Substance/Structure. The interview rubric doesn't map to any of that — scoring a comp call on it produces meaningless results.

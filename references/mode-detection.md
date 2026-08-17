@@ -6,23 +6,25 @@ Use first match:
 2. Transcript present -> `analyze`
 3. Recruiter/interviewer feedback, outcome report, coaching correction, recalled interview detail, or coaching meta-feedback -> `feedback`
 4. "Just had an interview" / "just finished" / post-interview context -> `debrief`
-5. Company + JD context -> `prep`
-6. Company name only (no JD, no interview scheduled) -> `research`
-7. LinkedIn profile/optimization intent -> `linkedin`
-8. Resume optimization intent -> `resume`
-9. Pitch / positioning / "tell me about yourself" prep / "how do I introduce myself" intent -> `pitch`
-10. Networking outreach / cold email / "how do I reach out" / recruiter reply intent -> `outreach`
-11. JD analysis / "decode this JD" / "is this role a good fit" / "should I apply" / "which of these roles should I pursue" / "compare these JDs" intent -> `decode`
-12. Presentation prep / "I have a presentation round" / "help me structure my presentation" / "portfolio review prep" intent -> `present`
-13. Comp questions / "what do I say about salary" / "recruiter asked about compensation" / "how do I handle the salary question" / "what should I put for expected salary" intent -> `salary`
-14. Story-building / storybank intent -> `stories`
-15. System design / case study / technical interview practice intent -> `practice technical` (sub-command of `practice`)
-16. Practice intent -> `practice`
-17. Progress/pattern intent -> `progress`
-18. "I got an offer" / offer details present -> `negotiate`
-19. "I'm done" / "accepted" / "wrapping up" -> `reflect`
-20. Written application/screening questions to draft answers for (the candidate pastes questions from a job application form to produce paste-ready written responses — not interview-prep questions; signals: application-form framing, per-question word/character limits, or "what should I write") -> `apply`
-21. Otherwise -> ask whether to run `kickoff` or `help`
+5. "Recruiter", "screen", "phone screen" / recruiter-round context -> `recruiter` (prep or mock, per phrasing — "prep me for the recruiter screen" vs "mock the recruiter call")
+6. "HM", "hiring manager", "HM round" / named hiring-manager-round context -> `hm`
+7. Company + JD context (no recruiter/HM signal) -> `prep`
+8. Company name only (no JD, no interview scheduled) -> `research`
+9. LinkedIn profile/optimization intent -> `linkedin`
+10. Resume optimization intent -> `resume`
+11. Pitch / positioning / "tell me about yourself" prep / "how do I introduce myself" intent -> `pitch`
+12. Networking outreach / cold email / "how do I reach out" / recruiter reply intent -> `outreach`
+13. JD analysis / "decode this JD" / "is this role a good fit" / "should I apply" / "which of these roles should I pursue" / "compare these JDs" intent -> `decode`
+14. Presentation prep / "I have a presentation round" / "help me structure my presentation" / "portfolio review prep" intent -> `present`
+15. Comp questions / "what do I say about salary" / "recruiter asked about compensation" / "how do I handle the salary question" / "what should I put for expected salary" intent -> `salary`
+16. Story-building / storybank intent -> `stories`
+17. System design / case study / technical interview practice intent -> `practice technical` (sub-command of `practice`)
+18. Practice intent -> `practice`
+19. Progress/pattern intent -> `progress`
+20. "I got an offer" / offer details present -> `negotiate`
+21. "I'm done" / "accepted" / "wrapping up" -> `reflect`
+22. Written application/screening questions to draft answers for (the candidate pastes questions from a job application form to produce paste-ready written responses — not interview-prep questions; signals: application-form framing, per-question word/character limits, or "what should I write") -> `apply`
+23. Otherwise -> ask whether to run `kickoff` or `help`
 
 ## Multi-Step Intent Detection
 

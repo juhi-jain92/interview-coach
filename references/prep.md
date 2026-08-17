@@ -12,6 +12,61 @@
 - Stage format
 - Company values
 
+### Shared Core (steps 1-5)
+
+Both `recruiter prep [company]` (`references/recruiter-screen.md`) and
+`hm [company]` (`references/hm.md`, which extends the rest of this file) run
+these five steps before adding their round-specific parts. This logic lives
+here and in `references/research.md` only — neither wrapper restates it.
+
+1. **Company research.** Run `references/research.md`'s Structured Search
+   Protocol (careers page, about/mission, news, interview-process signals,
+   engineering/product blog, culture). `recruiter` should prioritize the
+   blog/engineering-blog step first for speed; `hm` runs the full protocol in
+   order.
+2. **JD drill-down with theme-frequency.** See the JD Parsing Guide below:
+   repeated themes, order/emphasis, required vs. nice-to-have, verb choices,
+   between-the-lines signals, what's missing. Extract the top 5-7
+   competencies in priority order.
+3. **JD keyword coverage sweep.** Beyond theme-frequency, sweep the JD line
+   by line for critical AI-PM terms and requirements and pre-build a short
+   answer for each so nothing central goes unrehearsed. Always check for,
+   where present: build vs. buy (a time the candidate did it + how they'd
+   decide), RAG (used it, why or why not), prompt engineering, evals,
+   identity/privacy, 0-to-1, and any specific platforms named. Map each term
+   to a backing story from Step 4's pool, or flag it as a gap and prep the
+   honest bridge per the Gap-Handling Module (`references/cross-cutting.md`)
+   — never an overclaim past `local/profile.md`'s accuracy flags.
+4. **Select the 5 company-relevant stories.** From `local/story-bank.md`,
+   select up to 5 stories whose Primary/Secondary Skill or Domain overlaps
+   with the problems surfaced in Step 1 and the top competencies from Step 2.
+   This bounded pool is the base both wrappers build from: `recruiter` works
+   it at logline depth; `hm` deepens it into the full predicted-question
+   portfolio via `references/story-mapping-engine.md` (Step 8 below), which
+   optimizes across the complete question set, not just this shortlist.
+5. **Where-you-fit mapping in their KPI language.** Run
+   `references/research.md`'s Story-to-Problem Mapping section (produces the
+   "Where You Fit" output) using the Step 4 pool: name 2-3 of the company's
+   real problems, pair each with a story, and restate that story's impact in
+   the company's KPI language, not generic terms.
+
+### hm/full-loop round-specific depth
+
+Everything from here on is the `hm` round's build on top of the Shared Core
+— `references/hm.md` points here rather than restating it.
+
+- **Full STAR+ depth**: Step 8 below, via `references/story-mapping-engine.md`'s
+  full portfolio optimization.
+- **Follow-up/probe handling**: the Interview Format Taxonomy and Format
+  Discovery Protocol below, plus probing patterns in `references/role-drills.md`.
+- **Coverage checklist**: `local/hm-panel-checklist.md`, scored automatically
+  via the COVERAGE lens in `references/rubric.md` on every graded mock answer.
+- **Concerns-and-counters**: the Likely Concerns + Counters section of the
+  Output Schema below, sharpened further by the standalone `concerns [company]`
+  command.
+- **Dossiers**: the Interviewer Intelligence section below, and the standalone
+  `dossier [names]` command for full research and each person's secret question.
+
 ### Logic
 
 1. Identify interview format (see format taxonomy below). If the identified format is a presentation round, note: `present` provides dedicated content preparation coaching for presentation rounds. After this prep brief, recommend `present` for content structuring if the candidate hasn't already run it.
@@ -253,7 +308,7 @@ Before applying company knowledge sourcing tiers, run a targeted search to groun
 3. If the candidate provided interviewer LinkedIn URLs, research each one using the Interviewer Intelligence protocol below.
 4. Cross-reference findings with what the candidate has already told you.
 
-Present findings with source attribution: "From their careers page: [finding]" not "This company values [finding]." Follow the Claim Verification Protocol from `references/commands/research.md` — every claim maps to Tier 1, 2, or 3.
+Present findings with source attribution: "From their careers page: [finding]" not "This company values [finding]." Follow the Claim Verification Protocol from `references/research.md` — every claim maps to Tier 1, 2, or 3.
 
 #### Company Knowledge Sourcing (Critical)
 

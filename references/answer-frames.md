@@ -20,6 +20,23 @@ turning answers into recitals. Compiled from cohort notes and prep material.
   multi-agent systems, instruction adherence, eval depth, continuous learning
   and memory for agents.
 
+## TMAY frame ("tell me about yourself" / recruiter open)
+
+Past-and-future logline, not a chronology. Three moves, in order:
+1. **Logline**: one to two sentences naming who the candidate is and the JD's
+   core problem they've already solved, not a title recitation. Past tense
+   evidence, future tense direction.
+2. **Curiosity check**: a short line inviting the other person to steer, so
+   limited time covers what THEY most need ("what would be most useful to
+   cover in our time?"). Signals listening over reciting.
+3. **Stakeholder hook**: name the type of stakeholder this role serves, so
+   the intro lands as relevant to their world, not a generic career summary.
+
+Grade against: does the logline name a real, JD-specific problem (not a
+generic strength)? Does the curiosity check actually invite steering rather
+than just close the intro? Does the stakeholder hook match the JD's actual
+audience? Keep the whole thing to 30-90 seconds spoken.
+
 ## The 7-step AI PM story structure (for presenting her own projects)
 
 1. Workflow problem: what was slow, manual, inconsistent, risky, or limiting.

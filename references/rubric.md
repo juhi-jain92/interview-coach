@@ -1,7 +1,8 @@
 # Scoring Rubric: Two Lenses
 
 Every graded answer (drill, mock, grill-prosecute, analyze) gets both lenses.
-Log both to coaching-state.md Score History.
+Log both to coaching-state.md Score History. For calibration anchors — worked
+examples of each score level and the reasoning behind it — see `examples.md`.
 
 ## Lens 1: Delivery (how she answered)
 

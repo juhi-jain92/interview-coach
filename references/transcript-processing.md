@@ -330,11 +330,11 @@ In addition to the behavioral anti-patterns above, scan for these format-specifi
 
 ## Step 3: Multi-Lens Scoring
 
-Run the parsed transcript through evaluative lenses. **Important**: Which lenses you run depends on the Post-Scoring Decision Tree in `references/commands/analyze.md`. If a primary bottleneck is identified after initial scoring, scope the analysis accordingly rather than running all four lenses mechanically. Always follow the evidence sourcing standard from SKILL.md. **For Quick Prep track**: Run only Lens 1 and skip to delta sheet.
+Run the parsed transcript through evaluative lenses. **Important**: Which lenses you run depends on the Post-Scoring Decision Tree in `references/analyze.md`. If a primary bottleneck is identified after initial scoring, scope the analysis accordingly rather than running all four lenses mechanically. Always follow the evidence sourcing standard from `references/evidence-sourcing.md`. **For Quick Prep track**: Run only Lens 1 and skip to delta sheet.
 
 ### Scoring Weight Adjustments by Format
 
-Reference `references/commands/prep.md`'s Interview Format Taxonomy as the single source of truth for format-specific weight adjustments. The table below is a convenience copy — if it conflicts with prep.md, prep.md wins:
+Reference `references/prep.md`'s Interview Format Taxonomy as the single source of truth for format-specific weight adjustments. The table below is a convenience copy — if it conflicts with prep.md, prep.md wins:
 
 | Format | Primary Dimensions (weighted highest) |
 |---|---|
@@ -413,7 +413,7 @@ FINAL OUTPUT:
 - 3 weakest answers (specific gaps + root cause patterns)
 - Biggest concern about this candidate
 - One-sentence justification for your decision
-- Primary bottleneck dimension → triage recommendation (see Post-Scoring Decision Tree in `references/commands/analyze.md`)
+- Primary bottleneck dimension → triage recommendation (see Post-Scoring Decision Tree in `references/analyze.md`)
 ```
 
 ### Lens 2: Skeptical Specialist
@@ -513,7 +513,7 @@ Calibration band: [early career / mid-career / senior/lead / executive]
 Hire Signal: Strong Hire / Hire / Mixed / No Hire
 
 PRIMARY BOTTLENECK: [dimension]
-TRIAGE PATH: [coaching path chosen per Post-Scoring Decision Tree in references/commands/analyze.md]
+TRIAGE PATH: [coaching path chosen per Post-Scoring Decision Tree in references/analyze.md]
 
 ANTI-PATTERNS DETECTED: [list with Q# references]
 
@@ -608,10 +608,10 @@ MODE ANALYSIS:
 
 ## Step 5: Update Coaching State
 
-After analysis, update `coaching_state.md` per the State Update Triggers in SKILL.md:
+After analysis, update `coaching_state.md` per the State Update Triggers in `references/state-update-triggers.md`:
 
 1. **Score History**: Add a row with the interview scores, Type: interview, and Hire Signal from the overall assessment.
-2. **Active Coaching Strategy**: Write or update the strategy based on the triage decision (see Step 15 in `references/commands/analyze.md`). Preserve Previous approaches when changing strategy.
+2. **Active Coaching Strategy**: Write or update the strategy based on the triage decision (see Step 15 in `references/analyze.md`). Preserve Previous approaches when changing strategy.
 3. **Session Log**: Add an entry for this analysis session.
 4. **Storybank**: Apply any rework/retire/add recommendations from the delta sheet.
 

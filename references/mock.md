@@ -4,7 +4,7 @@ A complete simulated interview (4-6 questions in sequence) with holistic feedbac
 
 ### Setup
 
-1. Ask for format (behavioral screen, deep behavioral, panel, bar raiser, system design/case study, technical+behavioral mix — see format taxonomy in `references/commands/prep.md`). **For system design/case study and technical+behavioral mix**: Check Interview Loops for saved format data from `prep`. If format data exists for this company+round, use it. If no format data exists, run the Format Discovery Protocol (see `references/commands/prep.md`) and save the result to Interview Loops. See format-specific simulation UX sections below.
+1. Ask for format (behavioral screen, deep behavioral, panel, bar raiser, system design/case study, technical+behavioral mix — see format taxonomy in `references/prep.md`). **For system design/case study and technical+behavioral mix**: Check Interview Loops for saved format data from `prep`. If format data exists for this company+round, use it. If no format data exists, run the Format Discovery Protocol (see `references/prep.md`) and save the result to Interview Loops. See format-specific simulation UX sections below.
 2. Ask for company/role context (or use existing prep data).
 3. **Calibrate difficulty to the candidate's progression stage.** Check Drill Progression in `coaching_state.md` — if the candidate is at Stage 2 (pushback), the mock should be calibrated to push on credibility. If they're at Stage 6+ (panel/stress), they can handle maximum intensity. Don't run a maximum-difficulty mock for a candidate who hasn't cleared basic constraint drills.
 4. **Calibrate tone to the target company.** A mock for a FAANG final round should feel very different from a Series A startup first call:
@@ -43,7 +43,7 @@ Switch between personas naturally within the session. Create moments where perso
 
 ### System Design / Case Study Simulation UX
 
-**Before starting, check Interview Loops for saved format data from `prep`.** If format data exists, use it. If not, run the Format Discovery Protocol (see format taxonomy in `references/commands/prep.md`) and save the result to Interview Loops. If the candidate has described their specific format, simulate THAT. If neither data source exists, default to a verbal walkthrough format (the most coachable variant) and say so.
+**Before starting, check Interview Loops for saved format data from `prep`.** If format data exists, use it. If not, run the Format Discovery Protocol (see format taxonomy in `references/prep.md`) and save the result to Interview Loops. If the candidate has described their specific format, simulate THAT. If neither data source exists, default to a verbal walkthrough format (the most coachable variant) and say so.
 
 **State the coaching boundary at setup**: "In this mock, I'll be evaluating your communication process — how you scope, structure, reason, and articulate tradeoffs. I won't be evaluating the technical correctness of your solution. For that kind of feedback, you'll want to practice with a domain peer."
 
